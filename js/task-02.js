@@ -9,12 +9,12 @@ const ingredients = [
 
 const ingredientsList = document.getElementById("ingredients");
 
-const fragment = documnet.createDocumentFragment();
+const fragment = document.createDocumentFragment();
 
-ingredients.forEach((ingredients) => {
+ingredients.forEach((ingredient) => {
   const listItem = document.createElement("li");
 
-  listItem.textContent = ingredients;
+  listItem.textContent = ingredient;
 
   listItem.classList.add("item");
 
